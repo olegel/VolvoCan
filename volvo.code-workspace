@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "VolvoCan"
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {},
+		"platformio-ide.updateTerminalPathConfiguration": false,
+		"platformio-ide.forceUploadAndMonitor": true
+	}
+}
