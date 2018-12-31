@@ -1,0 +1,14 @@
+00e00442 ccm
+
+00000000.00000000.0P000000.0000YYYY:00000000.00000000.xxxxxxxx.00000000
+
+inside temperature? :
+xxxxxxx - 
+4a ~8 degrees
+63 ~18
+
+ambient light meter:
+yyyy 5 dark E cloud F sun
+
+park assistant button:
+P - park assist 1 - pressed, 0 - unpressed (not LED value!, just press)

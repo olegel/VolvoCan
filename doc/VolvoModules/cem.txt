@@ -1,0 +1,11 @@
+cem 00617ff8
+00000000.00000000.00000000.00000000:00000000.QQQ00000.abb00000.00000000
+
+Ignition key position:
+a - 1 - key present, 0 - no key
+bb - key position 0,1,2,3
+
+QQQ
+2 - light off
+4 - parking lights
+8 - headlamps on
