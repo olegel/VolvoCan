@@ -1,0 +1,9 @@
+[submodule "VolvoCan/lib/arduino-tone"]
+	path = VolvoCan/lib/arduino-tone
+	url = https://github.com/olegel/arduino-tone-library
+[submodule "VolvoCan/lib/arduino-mcp4xxx"]
+	path = VolvoCan/lib/arduino-mcp4xxx
+	url = https://github.com/olegel/arduino-mcp4xxx
+[submodule "VolvoCan/lib/arduino-mcp2515"]
+	path = VolvoCan/lib/arduino-mcp2515
+	url = https://github.com/olegel/arduino-mcp2515
