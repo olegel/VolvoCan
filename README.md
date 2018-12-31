@@ -41,8 +41,6 @@ But I have lost the parking assistant(it works through Volvo audio system), stee
 * [MCP4231] (https://github.com/olegel/arduino-mcp4xxx)
 * [MCP2515] (https://github.com/olegel/arduino-mcp2515)
 
-* [PDF file](doc/schematic.pdf)
-
 ## Compilation
 I've used Visual Studio Code with Platformio extension.
 Clone code, update sub-modules.
