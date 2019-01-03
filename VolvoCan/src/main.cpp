@@ -8,13 +8,6 @@
 #include "ParkingBuzzer.h"
 #include "Radio.h"
 
-void TogleLed()
-{
-  static bool led = false;
-  led = !led;
-  digitalWrite(PIN::Led, led ? HIGH : LOW);
-}
-
 CCarState _carState;
 CParkingBuzzer _parkingBuzzer;
 CWheelButtons _wheelButtons( PIN::PotSpiCs );
@@ -23,12 +16,8 @@ CRadio _radio;
 
 void setup() 
 {
-  pinMode(PIN::Led, OUTPUT);
-
   Serial.begin(115200);
   Serial.println("setup");
-
-  digitalWrite(PIN::Led, HIGH);
 
   SPI.begin();
 
@@ -43,7 +32,6 @@ void setup()
   _radio.Setup();
 
   delay(250);
-  digitalWrite(LED_BUILTIN, LOW);
   Serial.println("end");
 }
 

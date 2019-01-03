@@ -6,7 +6,7 @@
 
 namespace PIN
 {
-    enum Enum { Buzzer = 3, Led = LED_BUILTIN, PotSpiCs = 7, CanSpiCs = 10, CanInterrupt = 2, RadioRearGear = 5, RadioIllum = 4, KeyPos2 = 6 };
+    enum Enum { Buzzer = 3, PotSpiCs = 7, CanSpiCs = 10, CanInterrupt = 2, RadioRearGear = 5, RadioIllum = 4, KeyPos2 = 6 };
 }
 
 #endif
