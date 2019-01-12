@@ -45,8 +45,10 @@ But I have lost the parking assistant(it works through Volvo audio system), stee
 I've used Visual Studio Code with Platformio extension.
 Clone code, update sub-modules.
 Open volvo.code-workspace file, build and upload.
+NOTE: each car has own CAN module Id! You should detect it youself.
 
 ## My module:
 ![Hardware](doc/adapter.jpg)
 
-## Enjoy!
+## More information
+* More information you can find in my blog (Russian) (https://olegel.blogspot.com/2019/01/can-volvo-xc90.html)
